@@ -1,0 +1,50 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+    -fx-background-image: url("/images/kittys2.jpg");
+    -fx-background-size: 95%;
+    -fx-background-position: bottom ;
+
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.3), 10, 0.5, 0, 0);
+}
+.button {
+    -fx-background-color: #ffffff;
+    -fx-shape: "M16.56,3.38 C19.61,0.33 25.39,0.33 28.44,3.38 C33.54,8.48 33.54,17.51 28.44,22.61 L16.56,34.49 L4.68,22.61 C-0.42,17.51 -0.42,8.48 4.68,3.38 C7.73,0.33 13.51,0.33 16.56,3.38 Z";
+    -fx-background-insets: 0, 1, 2, 0;
+    -fx-text-fill: #ff69b4;
+
+    -fx-border-width: 1.5px;
+    -fx-border-color: #999999 #999999 #666666 #666666;
+    -fx-border-radius: 10;
+
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #ffb6c1, #ff69b4);
+}
+
+.button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #ff69b4, #d3007e);
+}
+
+
+#txtSuperior {
+    -fx-background-color: linear-gradient(to bottom, #fff0f5, #e6e6fa);
+    -fx-background-radius: 5, 4, 3, 5;
+    -fx-border-color: #999999 #999999 #666666 #666666;
+    -fx-border-width: 1px 3px 3px 1px;
+    -fx-border-radius: 5, 4, 3, 5;
+    -fx-border-insets: 0, 1, 2, 0;
+    -fx-padding: 5 10 5 10;
+
+    -fx-font-family: "Monospaced";
+    -fx-font-size: 16px;
+
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.3), 10, 0.5, 0, 0);
+}
+
+
+
+
+.label{
+	-fx-text-fill: "white";
+}
